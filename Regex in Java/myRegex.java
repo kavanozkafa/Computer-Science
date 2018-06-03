@@ -23,7 +23,7 @@ public class myRegex {
         String nameRegex="[A-Za-z]";//Si ile başlıyor mu?
 
         String city="Antalya";
-        String cityRegex="$ya";//şehirin sonu "ya" ile mi bitiyor?
+        String cityRegex="ya$";//şehirin sonu "ya" ile mi bitiyor?
 
         String phone="905680000680";
         String phoneRegex="[0-9]{12}";//telefon numarası mı ?
